@@ -1,0 +1,11 @@
+# ml
+torch
+pandas
+scikit-learn
+
+# datatypes
+pydicom
+
+# datasets
+medmnist
+
