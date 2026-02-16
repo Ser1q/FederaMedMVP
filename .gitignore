@@ -1,9 +1,21 @@
-__pycache__/
+# env
 .venv
 
 *.log
 *.tmp
 *.out
 
+# Model weights
+*.pth
+*.pt
+*.ckpt
+
+# Datasets
+*.dcm
+*.csv
+rsna-pneumonia-dataset/
+
+# Cache
+__pycache__/
 .vscode/
 .DS_Store
