@@ -3,7 +3,7 @@ import torch
 import medmnist
 from medmnist import INFO
 from torch.utils.data import DataLoader
-from model import SimpleCNN
+from V0_MNIST.model import SimpleCNN, ANN
 from torch import nn
 import torch.optim as optim
 from torchvision import transforms
