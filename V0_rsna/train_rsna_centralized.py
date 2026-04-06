@@ -182,7 +182,13 @@ for epoch in range(EPOCHS):
         f"Acc: {acc:.4f} | "
         f"ROC-AUC: {auc:.4f}")
 
-
 # Save
 torch.save(model.state_dict(), "rsna_resnet18_centralized.pth")
 print("Model saved.")
+
+# Results:
+# Epoch 1/5 | Loss: 0.4001 | Acc: 0.8337 | ROC-AUC: 0.8655
+# Epoch 2/5 | Loss: 0.3567 | Acc: 0.8223 | ROC-AUC: 0.8673
+# Epoch 3/5 | Loss: 0.3208 | Acc: 0.8319 | ROC-AUC: 0.8648
+# Epoch 4/5 | Loss: 0.2688 | Acc: 0.8181 | ROC-AUC: 0.8458
+# Epoch 5/5 | Loss: 0.1794 | Acc: 0.8245 | ROC-AUC: 0.8463
